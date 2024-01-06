@@ -53,7 +53,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: blue;
+  background-color:blue;
 }
 
 
@@ -76,6 +76,31 @@ ul.eligibility-list li {
   color: black; /* Set the text color to black */
   margin-left: 1.5em; /* Adjust the spacing between bullet and text */
 }
+
+/* TREATMENT FAQS STYLES*/
+summary{
+  list-style-type: '\002B';
+  border-top: 2px solid rgba(141, 141, 141, 0.432);
+  padding: 1rem;
+  font-size: large;
+}
+
+details[open] > summary {
+  list-style-type: '\2212';
+}
+details > div {
+  border-top: 2px solid rgba(0, 191, 255, 0.459);
+  padding: 0.6rem;
+}
+details > div > p {
+  margin-left: 1.2rem;
+  border-left: 2px solid deepskyblue;
+  padding-left: 1rem;
+  color: rgb(90, 88, 88);
+}
+
+
+
 .top-doctors {
   background-color: rgb(171, 226, 243);
 }
